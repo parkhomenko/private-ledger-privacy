@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Private Ledger</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    max-width: 44rem; margin: 0 auto; padding: 2.5rem 1.25rem 5rem;
+    color: #1c1c1e; background: #fff;
+  }
+  @media (prefers-color-scheme: dark) { body { color: #e6e6e6; background: #111; } }
+  h1 { font-size: 1.8rem; margin-bottom: .25rem; }
+  h2 { font-size: 1.25rem; margin-top: 2.25rem; }
+  h3 { font-size: 1.05rem; margin-top: 1.5rem; }
+  code { font-size: .9em; background: rgba(127,127,127,.16); padding: .1em .35em; border-radius: 4px; }
+  a { color: #0a66c2; } @media (prefers-color-scheme: dark) { a { color: #6aa9ff; } }
+  ul { padding-left: 1.2rem; }
+</style>
+</head>
+<body>
+<h1>Privacy Policy — Private Ledger (MyCapital)</h1>
+
+<p><strong>Last updated: 13 September 2026</strong></p>
+
+<p>Private Ledger is a personal net-worth tracker. It is built so that your</p>
+<p>financial data stays on your device.</p>
+
+<h2>What we collect</h2>
+
+<p><strong>Nothing.</strong> The developer operates no servers, no accounts, no analytics and no</p>
+<p>advertising. No information about you or your finances is transmitted to us,</p>
+<p>because there is nowhere for it to be transmitted to.</p>
+
+<h2>What stays on your device</h2>
+
+<p>Your accounts, balances, balance history, recurring commitments, cash flows and</p>
+<p>exchange rates are stored only in the app&#x27;s local database on your device. They</p>
+<p>are included in your device backup if you have iCloud Backup or encrypted local</p>
+<p>backups enabled — that backup is controlled by Apple and by you, not by us.</p>
+
+<p>Deleting the app deletes this data.</p>
+
+<h2>What the app sends to third parties</h2>
+
+<p>To show live values, the app makes requests directly from your device to the</p>
+<p>following services. It sends only what each request needs, and it never sends</p>
+<p>your account names, balances or history to any of them.</p>
+
+<h3>Public blockchain RPC endpoints</h3>
+
+<p>If — and only if — you add a wallet address to an account, the app sends **that</p>
+<p>wallet address** to a public Ethereum or Optimism RPC endpoint in order to read</p>
+<p>the balance held at it. The endpoints used are:</p>
+
+<ul>
+<li><code>ethereum-rpc.publicnode.com</code>, <code>eth.drpc.org</code>, <code>eth.merkle.io</code>,</li>
+</ul>
+<p>  <code>eth.rpc.blxrbdn.com</code></p>
+<ul>
+<li><code>optimism-rpc.publicnode.com</code>, <code>mainnet.optimism.io</code></li>
+</ul>
+
+<p>A wallet address is public information on a blockchain. These are independent</p>
+<p>services with their own privacy practices, and we do not control what they log.</p>
+<p>If you do not add a wallet address, the app never contacts them.</p>
+
+<h3>CoinGecko</h3>
+
+<p>The app sends <strong>coin identifiers</strong> (for example <code>ethereum</code>, <code>tether</code>) and a</p>
+<p>currency code to <code>api.coingecko.com</code> to obtain prices. **Your wallet address is</p>
+<p>never sent to CoinGecko.** Because the request names the assets being priced, it</p>
+<p>can reveal which of the supported assets are held — but not by whom, and not in</p>
+<p>what quantity.</p>
+
+<p>Data provided by CoinGecko — <a href="https://www.coingecko.com">https://www.coingecko.com</a></p>
+
+<h3>ExchangeRate-API</h3>
+
+<p>The app sends a <strong>currency code</strong> (for example <code>USD</code>) to <code>open.er-api.com</code> to</p>
+<p>obtain exchange rates. No personal information is included.</p>
+
+<p>Rates By Exchange Rate API — <a href="https://www.exchangerate-api.com">https://www.exchangerate-api.com</a></p>
+
+<h2>Tracking</h2>
+
+<p>The app does not track you. It contains no advertising identifiers, no</p>
+<p>third-party SDKs, no analytics, and no cross-app or cross-site tracking of any</p>
+<p>kind.</p>
+
+<h2>Children</h2>
+
+<p>The app is not directed at children and collects no data from anyone.</p>
+
+<h2>Changes</h2>
+
+<p>If this policy changes, the revised version will be published at this address</p>
+<p>with an updated date.</p>
+
+<h2>Contact</h2>
+
+<p>Questions about this policy: <strong>stanislav.parkhomenko@gmail.com</strong></p>
+
+</body>
+</html>
